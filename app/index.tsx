@@ -59,7 +59,6 @@ const App = () => {
             <Text style={styles.backButton}>Back</Text>
           </TouchableOpacity>
         )}
-        <Text style={styles.title}>Sitemate - Alex Swan App</Text>
       </View>
       <View style={styles.content}>
         {isLoading ? (
